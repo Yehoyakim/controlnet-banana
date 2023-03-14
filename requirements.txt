@@ -1,5 +1,6 @@
 sanic==22.6.2
 torch
 diffusers[torch]
-safetensors
-git+https://github.com/huggingface/transformers.git
+Pillow
+numpy
+accelerate
