@@ -6,8 +6,10 @@ RUN apt-get update && apt-get install -y git
 
 RUN pip3 install --upgrade pip
 
+RUN apt-get install python3-opencv -y
 ADD requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
+
 
 ADD server.py .
 EXPOSE 8000

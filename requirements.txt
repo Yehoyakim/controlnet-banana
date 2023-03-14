@@ -5,3 +5,4 @@ Pillow
 numpy
 accelerate
 timm
+opencv-python
