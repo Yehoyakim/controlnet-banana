@@ -4,3 +4,4 @@ diffusers[torch]
 Pillow
 numpy
 accelerate
+timm
